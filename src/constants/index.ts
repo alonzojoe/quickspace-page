@@ -1,6 +1,6 @@
 
 
-
+import Logo from "../assets/images/logo.png"
 import Hero from "../assets/images/hero.png"
 import Brand1 from "../assets/images/brand1.png"
 import Brand2 from "../assets/images/brand2.png"
@@ -128,4 +128,18 @@ export const TESTIMONIALS_CONTENT = {
             role: 'UX Designer at Google'
         },
     ]
+}
+
+export const FOOTER_CONTENT = {
+    logo: Logo,
+    description: 'Phasellus pulvinar porta turpis sit amet facilis sapien bibendum eu praesent massa.',
+    phone: '(888) 1234-5678',
+    email: 'support-quickspace@quickspace.com',
+    sections: [
+        { items: ['Useful Links', 'Features', 'About', 'Service', 'Team'] },
+        { items: ['Help & Support', 'FAQ', 'Blog', 'Contact Us', 'Support'] },
+        { items: ['Resources', 'Guides and resources', 'Team', 'Tools', 'Support'] },
+    ],
+    reserved: '© All Right Reserved',
+
 }
