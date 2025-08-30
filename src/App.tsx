@@ -1,9 +1,5 @@
-function App() {
-  return (
-    <>
-      <h1 className="bg-red-500">APP Store</h1>
-    </>
-  );
-}
+const App = () => {
+  return <main className="text-sm text-secondary antialiased"></main>;
+};
 
 export default App;
