@@ -13,6 +13,13 @@ import Icon3 from "../assets/images/icon3.png"
 
 import imgLeft from "../assets/images/left.png"
 
+import Ic1 from "../assets/images/ic1.png"
+import Ic2 from "../assets/images/ic2.png"
+import Ic3 from "../assets/images/ic3.png"
+import Ic4 from "../assets/images/ic4.png"
+
+import imgRight from "../assets/images/right.png"
+
 export const HERO_CONTENT = {
     title: 'Smart-Thinking & Innovative Solution.',
     subTitlte: 'Class aptent taciti sociosqu ad litora torquent conubia nostrama inceptos himenaeos. Donec tristique nibh ipsum dignissim.',
@@ -57,4 +64,24 @@ export const SECURITY_CONTENT = {
         },
         { title: 'Create Auto Layouts In App Interface', subTitle: 'Suspendisse mollis ligula dictum iaculis viverra nulla velit phauy lorem ac scelerisque neque turpis.' },
     ]
+}
+
+export const CHOOSE_APPLICATION_CONTENT = {
+    title: 'Why Will You Choose Our Application',
+    subTitle: 'Class aptent taciti sociosqu ad litora torquen conubia nostramase inceptos himenaeo. Phasellus metus nisl euismod eget lorem.',
+    items: [
+        { icon: Ic1, title: 'Creative Ideas', description: 'Class aptent taciti sociq u litora torquen conub.' },
+        { icon: Ic2, title: 'Awesome Design', description: 'Integer a elit pellentesqu e semper sem ultricies.' },
+        { icon: Ic3, title: 'Best Features', description: 'Fusce risus lorem pulvin ar eu posuere vitae.' },
+        { icon: Ic4, title: 'Easy Solutions', description: 'Aenean eget nulla eu dui malesuad convallis vel.' },
+    ]
+}
+
+
+export const APPREADY_CONTENT = {
+    title: 'Ready To Use Our App With No Hidden Malware',
+    description: 'Etiam euismod volutpat lacus fringilla henr. Mauris lobortis purus velit quis. Nunc mollis venenatis metus nec aliquet.',
+    emailPlaceHolder: 'Enter your email address',
+    alreadyMember: 'Already a member? Sign In',
+    imageRight: imgRight
 }
