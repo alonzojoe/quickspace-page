@@ -20,6 +20,12 @@ import Ic4 from "../assets/images/ic4.png"
 
 import imgRight from "../assets/images/right.png"
 
+import dashboardImg from "../assets/images/dashboard.png"
+
+import User1 from "../assets/images/user1.png"
+import User2 from "../assets/images/user2.png"
+import User3 from "../assets/images/user3.png"
+
 export const HERO_CONTENT = {
     title: 'Smart-Thinking & Innovative Solution.',
     subTitlte: 'Class aptent taciti sociosqu ad litora torquent conubia nostrama inceptos himenaeos. Donec tristique nibh ipsum dignissim.',
@@ -84,4 +90,42 @@ export const APPREADY_CONTENT = {
     emailPlaceHolder: 'Enter your email address',
     alreadyMember: 'Already a member? Sign In',
     imageRight: imgRight
+}
+
+export const BUSINESS_CONTENT = {
+    title: 'We Help To GrowYour Business',
+    subTitle: 'Quisque fermentum porta tincidunt. Interdum semper. Pellentesque facilisis augue dolor mollis suscipit erat libero fermentum.',
+    items: [
+        { title: '142', description: 'Features' },
+        { title: '488K', description: 'APP Download' },
+        { title: '53M', description: 'Active Users' },
+        { title: '90%', description: 'Positive Rate' },
+    ]
+}
+
+export const DASHBOARD_IMG = dashboardImg
+
+export const TESTIMONIALS_CONTENT = {
+    title: 'What People Say',
+    subTitle: 'Quisque fermentum porta tincidunt. Interdum semper. Pellentesque facilisis augue mollis suscipit.',
+    users: [
+        {
+            icon: User1,
+            testimonial: '“I just simply love tools that make my life easier! I have everything that I need in one place, and that allows our team to be more organized and user-oriented.”',
+            name: 'Jenny Wilson',
+            role: 'Project Manager at Microsoft'
+        },
+        {
+            icon: User2,
+            testimonial: '“I really like that I can have all in one place: I can send emails and text messages, I can have live chat, show pop-ups and push notifications on my website and create dynamic page content”',
+            name: 'Robert Fox',
+            role: 'Founder at Brain.co'
+        },
+        {
+            icon: User3,
+            testimonial: '“Very easy to use and set up is simple. I can easily provide live support to my website visitors in real-time. It also provides many integrations.”',
+            name: 'Kristin Watson',
+            role: 'UX Designer at Google'
+        },
+    ]
 }
