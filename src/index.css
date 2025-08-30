@@ -5,3 +5,7 @@
   --color-dark: #141F39;
   --color-secondary: #4F4F4F;
 }
+
+body {
+  background: #FFFFFF;
+}
