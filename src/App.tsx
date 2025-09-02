@@ -5,6 +5,7 @@ import FeaturesSection from "./components/FeaturesSection";
 import SecuritySection from "./components/SecuritySection";
 import PerformanceSection from "./components/PerformanceSection";
 import ApplicationSection from "./components/ApplicationSection";
+import MalwareSection from "./components/MalwareSection";
 const App = () => {
   return (
     <main className="text-sm text-secondary antialiased">
@@ -15,6 +16,7 @@ const App = () => {
       <SecuritySection />
       <PerformanceSection />
       <ApplicationSection />
+      <MalwareSection />
     </main>
   );
 };

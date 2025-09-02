@@ -100,7 +100,10 @@ export const APPREADY_CONTENT = {
     title: 'Ready To Use Our App With No Hidden Malware',
     description: 'Etiam euismod volutpat lacus fringilla henr. Mauris lobortis purus velit quis. Nunc mollis venenatis metus nec aliquet.',
     emailPlaceHolder: 'Enter your email address',
-    alreadyMember: 'Already a member? Sign In',
+    alreadyMember: {
+        left: 'Already a member?',
+        right: ' Sign In'
+    },
     imageRight: globaImg
 }
 
