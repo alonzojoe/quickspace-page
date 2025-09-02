@@ -11,14 +11,15 @@ import Icon1 from "../assets/images/icon1.png"
 import Icon2 from "../assets/images/icon2.png"
 import Icon3 from "../assets/images/icon3.png"
 
-import imgLeft from "../assets/images/left.png"
+import ImageRight from "../assets/images/security.png"
+import imgLeft from "../assets/images/analytics.png"
 
 import Ic1 from "../assets/images/ic1.png"
 import Ic2 from "../assets/images/ic2.png"
 import Ic3 from "../assets/images/ic3.png"
 import Ic4 from "../assets/images/ic4.png"
 
-import imgRight from "../assets/images/right.png"
+import globaImg from "../assets/images/globe.png"
 
 import dashboardImg from "../assets/images/dashboard.png"
 
@@ -50,13 +51,24 @@ export const FEATURE_CONTENT = {
         { id: 3, icon: Icon3, title: 'User Friendly Interface', description: 'Quisque magna, sollicitudin vitae, lobortis feugiat arcu.' },
     ],
     footer: {
-        title: 'Approx team members ready to online support for you',
-        highlight: '875+'
+        first: 'Approx',
+        highlight: '875+',
+        second: 'team members ready to online support for you'
     }
 }
 
-
 export const SECURITY_CONTENT = {
+    ImageRight,
+    title: 'Better Security To Better Protection An Experience Of Strength.',
+    description: 'Class aptent taciti sociosqu ad litora torquent conubia nostrama inceptos himenaeos. Donec tristique nibh ipsum dignissim.',
+    items: [
+        { title: 'Well Organised User Interface', description: 'Etiam id euismod odio. Ut euismod sem a lacus fringilla.' },
+        { title: 'Completely Bug Free', description: 'Cras eleifend leo ac varius tristique suspendisse.' },
+    ]
+}
+
+
+export const PERFORMANCE_CONTENT = {
     imageLeft: imgLeft,
     title: 'Performance Is The Key To Most People Achieving A Better Future',
     description: 'Etiam euismod odio euismod lacus fringilla hendrer.',
@@ -88,8 +100,11 @@ export const APPREADY_CONTENT = {
     title: 'Ready To Use Our App With No Hidden Malware',
     description: 'Etiam euismod volutpat lacus fringilla henr. Mauris lobortis purus velit quis. Nunc mollis venenatis metus nec aliquet.',
     emailPlaceHolder: 'Enter your email address',
-    alreadyMember: 'Already a member? Sign In',
-    imageRight: imgRight
+    alreadyMember: {
+        left: 'Already a member?',
+        right: ' Sign In'
+    },
+    imageRight: globaImg
 }
 
 export const BUSINESS_CONTENT = {
