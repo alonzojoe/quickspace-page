@@ -1,4 +1,3 @@
-import React from "react";
 import { FEATURE_CONTENT } from "../constants";
 
 const FeaturesSection = () => {
