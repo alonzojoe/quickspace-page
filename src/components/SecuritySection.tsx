@@ -8,7 +8,7 @@ const SecuritySection = () => {
           <h2 className="text-dark  text-xl lg:text-4xl font-bold">
             {SECURITY_CONTENT.title}
           </h2>
-          <p className="text-secondary mt-5">{SECURITY_CONTENT.description}</p>
+          <p className="text-secondary mt-7">{SECURITY_CONTENT.description}</p>
           <div className="border-t border-neutral-400 my-12"></div>
 
           {SECURITY_CONTENT.items.map((item, index) => (
