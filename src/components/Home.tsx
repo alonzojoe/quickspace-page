@@ -50,7 +50,7 @@ const Home = () => {
           </div>
         </div>
         <div className="flex items-center justify-end md:justify-center">
-          <img className="w-400px xl:w-553px" src={HeroImg} alt="hero-image" />
+          <img className="w-[553px] xl:w-[753px]" src={HeroImg} alt="hero-image" />
         </div>
       </div>
     </section>

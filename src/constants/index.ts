@@ -11,8 +11,8 @@ import Icon1 from "../assets/images/icon1.png"
 import Icon2 from "../assets/images/icon2.png"
 import Icon3 from "../assets/images/icon3.png"
 
-import ImageRight from "../assets/images/right.png"
-import imgLeft from "../assets/images/left.png"
+import ImageRight from "../assets/images/security.png"
+import imgLeft from "../assets/images/analytics.png"
 
 import Ic1 from "../assets/images/ic1.png"
 import Ic2 from "../assets/images/ic2.png"
