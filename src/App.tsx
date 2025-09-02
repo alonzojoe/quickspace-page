@@ -4,6 +4,7 @@ import PartnersSection from "./components/PartnersSection";
 import FeaturesSection from "./components/FeaturesSection";
 import SecuritySection from "./components/SecuritySection";
 import PerformanceSection from "./components/PerformanceSection";
+import ApplicationSection from "./components/ApplicationSection";
 const App = () => {
   return (
     <main className="text-sm text-secondary antialiased">
@@ -13,6 +14,7 @@ const App = () => {
       <FeaturesSection />
       <SecuritySection />
       <PerformanceSection />
+      <ApplicationSection />
     </main>
   );
 };
