@@ -50,8 +50,9 @@ export const FEATURE_CONTENT = {
         { id: 3, icon: Icon3, title: 'User Friendly Interface', description: 'Quisque magna, sollicitudin vitae, lobortis feugiat arcu.' },
     ],
     footer: {
-        title: 'Approx team members ready to online support for you',
-        highlight: '875+'
+        first: 'Approx',
+        highlight: '875+',
+        second: 'team members ready to online support for you'
     }
 }
 
