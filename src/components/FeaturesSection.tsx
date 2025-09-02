@@ -6,7 +6,7 @@ const FeaturesSection = () => {
     <section id="features">
       <div className="max-w-7xl mx-auto px-5">
         <div className="text-center mb-12">
-          <h2 className="text-3xl mt-20 font-bold text-dark lg:text-5xl">
+          <h2 className="text-xl mt-20 font-bold text-dark lg:text-4xl">
             {FEATURE_CONTENT.title}
           </h2>
           <p className="text-secondary my-5">{FEATURE_CONTENT.subTitle}</p>
