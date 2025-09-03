@@ -1,6 +1,5 @@
 
 
-import Logo from "../assets/images/logo.png"
 import WhiteLogo from "../assets/images/logo-white.png"
 import Hero from "../assets/images/hero.png"
 import Brand1 from "../assets/images/brand1.png"
@@ -149,6 +148,9 @@ export const TESTIMONIALS_CONTENT = {
     ]
 }
 
+const date = new Date()
+const year = date.getFullYear()
+
 export const FOOTER_CONTENT = {
     logo: WhiteLogo,
     description: 'Phasellus pulvinar porta turpis sit amet facilis sapien bibendum eu praesent massa.',
@@ -163,6 +165,6 @@ export const FOOTER_CONTENT = {
         { title: 'Help & Support', items: ['FAQ', 'Blog', 'Contact Us', 'Support'] },
         { title: 'Resources', items: ['Guides and resources', 'Team', 'Tools', 'Support'] },
     ],
-    reserved: '© All Right Reserved',
+    reserved: `© ${year} All Right Reserved @alonzojoe`,
 
 }
