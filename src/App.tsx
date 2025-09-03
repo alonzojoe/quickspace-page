@@ -9,6 +9,7 @@ import MalwareSection from "./components/MalwareSection";
 import BusinessSection from "./components/BusinessSection";
 import DashboardSection from "./components/DashboardSection";
 import TestimonialsSection from "./components/TestimonialsSection";
+import FooterSection from "./components/FooterSection";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       <BusinessSection />
       <DashboardSection />
       <TestimonialsSection />
+      <FooterSection />
     </main>
   );
 };
