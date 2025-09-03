@@ -1,6 +1,6 @@
 
 
-import Logo from "../assets/images/logo.png"
+import Logo from "../assets/images/qcklogo.png"
 import WhiteLogo from "../assets/images/logo-white.png"
 import Hero from "../assets/images/hero.png"
 import Brand1 from "../assets/images/brand1.png"
