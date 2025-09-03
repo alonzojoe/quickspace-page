@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Logo from "../assets/images/logo.png";
+import { APP_LOGO } from "../constants";
 import { TbMenuDeep, TbX } from "react-icons/tb";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-4 right-0 left-0 z-100">
       <div className="bg-white/60 backdrop-blur-md max-w-7xl mx-auto px-4 py-2 flex items-center justify-between">
-        <img src={Logo} alt="logo" height={10} width={211.55} />
+        <img src={APP_LOGO} alt="logo" height={10} width={211.55} />
 
         <ul className="hidden md:flex items-center text-secondary font-semibold text-md space-x-7">
           <li className="hover:text-dark">

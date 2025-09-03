@@ -1,5 +1,6 @@
 
 
+import Logo from "../assets/images/logo.png"
 import WhiteLogo from "../assets/images/logo-white.png"
 import Hero from "../assets/images/hero.png"
 import Brand1 from "../assets/images/brand1.png"
@@ -29,6 +30,8 @@ import User3 from "../assets/images/user3.png"
 
 import playStore from "../assets/images/playstorev.png"
 import appStore from "../assets/images/appstore.png"
+
+export const APP_LOGO = Logo
 
 export const HERO_CONTENT = {
     title: 'Smart-Thinking & Innovative Solution.',
