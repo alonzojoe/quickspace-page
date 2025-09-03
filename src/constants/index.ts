@@ -27,6 +27,9 @@ import User1 from "../assets/images/user1.png"
 import User2 from "../assets/images/user2.png"
 import User3 from "../assets/images/user3.png"
 
+import playStore from "../assets/images/playstorev.png"
+import appStore from "../assets/images/appstore.png"
+
 export const HERO_CONTENT = {
     title: 'Smart-Thinking & Innovative Solution.',
     subTitlte: 'Class aptent taciti sociosqu ad litora torquent conubia nostrama inceptos himenaeos. Donec tristique nibh ipsum dignissim.',
@@ -150,6 +153,8 @@ export const FOOTER_CONTENT = {
     description: 'Phasellus pulvinar porta turpis sit amet facilis sapien bibendum eu praesent massa.',
     phone: '(888) 1234-5678',
     email: 'support-quickspace@quickspace.com',
+    playstore: playStore,
+    appstore: appStore,
     sections: [
         { items: ['Useful Links', 'Features', 'About', 'Service', 'Team'] },
         { items: ['Help & Support', 'FAQ', 'Blog', 'Contact Us', 'Support'] },
