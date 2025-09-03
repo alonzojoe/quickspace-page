@@ -8,6 +8,7 @@ import ApplicationSection from "./components/ApplicationSection";
 import MalwareSection from "./components/MalwareSection";
 import BusinessSection from "./components/BusinessSection";
 import DashboardSection from "./components/DashboardSection";
+import TestimonialsSection from "./components/TestimonialsSection";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <MalwareSection />
       <BusinessSection />
       <DashboardSection />
+      <TestimonialsSection />
     </main>
   );
 };
