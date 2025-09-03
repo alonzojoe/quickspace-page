@@ -1,6 +1,6 @@
 
 
-import Logo from "../assets/images/logo.png"
+import WhiteLogo from "../assets/images/logo-white.png"
 import Hero from "../assets/images/hero.png"
 import Brand1 from "../assets/images/brand1.png"
 import Brand2 from "../assets/images/brand2.png"
@@ -26,6 +26,9 @@ import dashboardImg from "../assets/images/dashboard.png"
 import User1 from "../assets/images/user1.png"
 import User2 from "../assets/images/user2.png"
 import User3 from "../assets/images/user3.png"
+
+import playStore from "../assets/images/playstorev.png"
+import appStore from "../assets/images/appstore.png"
 
 export const HERO_CONTENT = {
     title: 'Smart-Thinking & Innovative Solution.',
@@ -111,7 +114,7 @@ export const BUSINESS_CONTENT = {
     title: 'We Help To GrowYour Business',
     subTitle: 'Quisque fermentum porta tincidunt. Interdum semper. Pellentesque facilisis augue dolor mollis suscipit erat libero fermentum.',
     items: [
-        { title: '142', description: 'Features' },
+        { title: '142', description: 'New Features' },
         { title: '488K', description: 'APP Download' },
         { title: '53M', description: 'Active Users' },
         { title: '90%', description: 'Positive Rate' },
@@ -145,16 +148,23 @@ export const TESTIMONIALS_CONTENT = {
     ]
 }
 
+const date = new Date()
+const year = date.getFullYear()
+
 export const FOOTER_CONTENT = {
-    logo: Logo,
+    logo: WhiteLogo,
     description: 'Phasellus pulvinar porta turpis sit amet facilis sapien bibendum eu praesent massa.',
     phone: '(888) 1234-5678',
     email: 'support-quickspace@quickspace.com',
+    playstore: playStore,
+    appstore: appStore,
     sections: [
-        { items: ['Useful Links', 'Features', 'About', 'Service', 'Team'] },
-        { items: ['Help & Support', 'FAQ', 'Blog', 'Contact Us', 'Support'] },
-        { items: ['Resources', 'Guides and resources', 'Team', 'Tools', 'Support'] },
+        {
+            title: 'Useful Links', items: ['Features', 'About', 'Service', 'Team']
+        },
+        { title: 'Help & Support', items: ['FAQ', 'Blog', 'Contact Us', 'Support'] },
+        { title: 'Resources', items: ['Guides and resources', 'Team', 'Tools', 'Support'] },
     ],
-    reserved: '© All Right Reserved',
+    reserved: `© ${year} All Right Reserved @alonzojoe`,
 
 }
