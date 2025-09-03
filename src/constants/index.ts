@@ -111,7 +111,7 @@ export const BUSINESS_CONTENT = {
     title: 'We Help To GrowYour Business',
     subTitle: 'Quisque fermentum porta tincidunt. Interdum semper. Pellentesque facilisis augue dolor mollis suscipit erat libero fermentum.',
     items: [
-        { title: '142', description: 'Features' },
+        { title: '142', description: 'New Features' },
         { title: '488K', description: 'APP Download' },
         { title: '53M', description: 'Active Users' },
         { title: '90%', description: 'Positive Rate' },
